@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="row">
+    <div class="col-md-12 text-center">
+        <ul id="choice_nav" class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#mapp" onclick="city(0)">Moscow</a></li>
+            <li role="presentation"><a href="#mapp" onclick="city(1)">Frankfurt</a></li>
+            <li role="presentation"><a href="#mapp" onclick="city(2)">Paris</a></li>
+            <li role="presentation"><a href="#mapp" onclick="city(3)">Brussels</a></li>
+            <li role="presentation"><a href="#mapp" onclick="city(4)">New York City</a></li>
+        </ul>
+    </div>
+    <div class="col-sm-12 text-center">
+        <p id="text">
+            Moscow is Russia's capital city and is the largest city in the country. As of January 1,
+            2010, Moscow's population was 10,562,099, which also makes it
+            one of the top ten largest cities in the world.
+        </p>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img id="image" src="images/moscow.jpg" class="img-responsive img-rounded">
+        </div>
+        <div class="col-md-6">
+            <div id="map-canvas" class="img-responsive img-rounded">
+            </div>
+        </div>
+
+    </div>
+</div>
